@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Aquabotics"
+        android:layout_width="304dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="54dp"
+        android:fontFamily="casual"
+        android:text="@string/aquabotics"
+        android:textColor="#2196F3"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoAqua"
+        tools:ignore="MissingConstraints,TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/logoAqua"
+        android:layout_width="199dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/Aquabotics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_agua"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/btnInicio"
+        android:layout_width="144dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="203dp"
+        android:shadowColor="#3F51B5"
+        android:text="Inicio"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#3F51B5"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Aquabotics"
+        app:rippleColor="#3F51B5"
+        app:strokeColor="#3F51B5"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

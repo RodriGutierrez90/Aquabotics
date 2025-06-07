@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "334591502252",
+    "firebase_url": "https://aquabotics-aecf5-default-rtdb.firebaseio.com",
+    "project_id": "aquabotics-aecf5",
+    "storage_bucket": "aquabotics-aecf5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334591502252:android:62b29201a873cbe0efbc09",
+        "android_client_info": {
+          "package_name": "com.example.aquabotics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334591502252-icj5dao3oeagg9luht91e7tedl2s4mjd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aquabotics",
+            "certificate_hash": "e737b3aa185c075231b7cfbe4000524aef07e2f3"
+          }
+        },
+        {
+          "client_id": "334591502252-v3c06pgk6ao5gjmnokmemtrassf643g0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5hz8B1Ibc6AWTQXw-uY-xaDJsbeUXmG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334591502252-v3c06pgk6ao5gjmnokmemtrassf643g0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
