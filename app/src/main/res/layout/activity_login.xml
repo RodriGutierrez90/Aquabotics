@@ -13,7 +13,7 @@
         android:layout_width="174dp"
         android:layout_height="184dp"
         android:layout_marginStart="118dp"
-        android:layout_marginTop="404dp"
+        android:layout_marginTop="512dp"
         android:layout_marginEnd="119dp"
         android:layout_marginBottom="82dp"
         app:layout_constraintBottom_toTopOf="@+id/textUsuario"
@@ -31,8 +31,10 @@
         android:layout_marginTop="32dp"
         android:hint="Correo electrónico"
         android:inputType="textEmailAddress"
+        android:textSize="34sp"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="Autofill,HardcodedText,LabelFor" />
+        tools:ignore="Autofill,HardcodedText,LabelFor"
+        tools:layout_editor_absoluteX="16dp" />
 
     <EditText
         android:id="@+id/etPassword"
@@ -41,8 +43,10 @@
         android:layout_marginTop="16dp"
         android:hint="Contraseña"
         android:inputType="textPassword"
+        android:textSize="34sp"
         app:layout_constraintTop_toBottomOf="@id/etEmail"
-        tools:ignore="Autofill,HardcodedText,LabelFor" />
+        tools:ignore="Autofill,HardcodedText,LabelFor"
+        tools:layout_editor_absoluteX="16dp" />
 
     <Button
         android:id="@+id/btnEntrar"
@@ -50,8 +54,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Iniciar Sesión"
+        android:textSize="34sp"
         app:layout_constraintTop_toBottomOf="@id/etPassword"
-        tools:ignore="HardcodedText,LabelFor" />
+        tools:ignore="HardcodedText,LabelFor"
+        tools:layout_editor_absoluteX="16dp" />
 
     <Button
         android:id="@+id/btnRegistrarse"
@@ -59,8 +65,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Registrarse"
+        android:textSize="34sp"
         app:layout_constraintTop_toBottomOf="@id/btnEntrar"
-        tools:ignore="HardcodedText,LabelFor" />
+        tools:ignore="HardcodedText,LabelFor"
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/tvO"
@@ -80,7 +88,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Iniciar Sesión con Google"
+        android:textSize="34sp"
         app:layout_constraintTop_toBottomOf="@id/tvO"
-        tools:ignore="HardcodedText,LabelFor" />
+        tools:ignore="HardcodedText,LabelFor"
+        tools:layout_editor_absoluteX="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
